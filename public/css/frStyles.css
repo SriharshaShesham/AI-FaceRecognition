@@ -1,0 +1,32 @@
+html,
+body {
+  scroll-behavior: smooth !important;
+}
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+  #intro {
+    /* margin-top: -58.59px; */
+    height: 40vh !important;
+    min-height: 250px;
+  }
+}
+
+.section-center-content .row {
+  justify-content: center !important;
+  text-align: center;
+}
+
+.video,
+.overlay {
+  position: absolute;
+  left: 25%;
+}
+
+.video {
+  border: 12px dotted;
+}
+
+#FaceRecognition {
+  height: 550px;
+}
